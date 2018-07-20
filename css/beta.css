@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a,a:hover,a:active,a:focus{
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+/* New Styles */
+html,body{
+	height: 100%;
+}
+.beta-toast{
+	left: 10% !important;
+	top: 2% !important;
+	margin: 0 !important;
+}
+.full-height{
+	height: 100%;
+}
+.primary-container{
+}
+.main-content-container{
+	display: table;
+}
+.main-content{
+	display: table-cell;
+	vertical-align: middle;
+}
+.main-content-inner{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+.logo-container{
+	/*margin-bottom: 100px;*/
+	margin-bottom: 20%;
+}
+.logo{
+	max-width: 100%;
+}
+.hero{
+	background-image: url('../images/hero-image.jpg');
+	background-size: cover;
+	background-position: right;
+}
+.hero-text{
+	min-width: 40px;
+	margin-bottom: 50px;
+}
+.hero-text .top-title{
+	font-size: 20px;
+	font-family: fontBold;
+	color: #999;
+	margin-bottom: 0;
+}
+.hero-text-inner{
+	position: relative;
+}
+.hero-text-inner .main-title{
+	text-align: left;
+	font-size: 4em;
+	font-weight: 500;
+	margin-bottom: 5px;
+	font-family: fontBold;
+}
+.hero-text-inner .subtitle-text{
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: -20px;
+	text-align: right;
+	color: #999;
+}
+.form-container label{
+	font-size: 0.6em;
+	font-family: fontLight;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.form-container input{
+	padding: 20px;
+	font-size: 0.7em !important;
+	font-family: fontLight;
+}
+.form-container input.form-control,.form-container input.form-control:focus{
+	border: 1px solid #e6e6e6 !important;
+	box-shadow: none !important;
+}
+.form-container button,.form-container button:hover,.form-container button:active:hover{
+	font-size: 0.7em;
+	padding: 15px;
+	text-transform: uppercase;
+	background-color: #ff9466 !important;
+	color: #fff !important;
+	font-family: fontLight;
+}
+.post-link .register-link,.post-link .login-link{
+	text-align: center;
+}
+.register-link a,.login-link a{
+	font-size: 16px;
+	color: #bcbcbc;
+	font-family: fontLight;
+}
+body{
+	max-height: 100vh !important;
+	overflow-y: auto;
+}
+@media (max-width: 320px) {
+	.main-content-inner {
+		width: 90%;
+		margin: 20px auto;
+		 padding: 0 !important;
+	}
+}
+.success-container{
+	display: none;
+	width: 100%;
+}
+.success{
+	width: 100%;
+}

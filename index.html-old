@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hello Demo, Coming Soon</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/ico" href="favicon.png" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/norwester.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/space.css">
+    <link rel="stylesheet" href="css/overright.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="video"></div>
+
+    <header class="tab-content">
+        <div class="vcenter tab-pane fade in active" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+                        <img style="max-width: 100%;height: auto;width: 50%;margin-top: 10%;" src="logo.png" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                        <div class="countdown">
+                            <ul class="color_white list-inline list-unstyled" id="countdown"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 xs-center">
+                    <form id="mc-form" class="subscribe-form">
+                        <label class="mt10" for="mc-email"></label>
+                        <input type="email" class="form-box" id="mc-email" placeholder="Type E-mail...">
+                        <button type="submit" style="color: #ff9466; background-color: #fff" class="form-btn">Stay in the Know</button>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 text-right xs-center">
+                   <div class="space-5"></div>
+                    <ul class="list-unstyled list-inline social-list">
+                        <li><a href="https://www.facebook.com/hello.demo"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/hello.demo/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.youtubebackground.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/countdown.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

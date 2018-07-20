@@ -1,0 +1,39 @@
+(function ($) {
+    "use strict";
+    $(window).on("load", function () {
+        $('.preloader').fadeOut(500);
+    });
+    /*---------------------------
+     MICHIMP INTEGRATION
+    -----------------------------*/
+    $('#mc-form').ajaxChimp({
+        url: 'https://hello-demo.us17.list-manage.com/subscribe/post?u=20a1d645a6bb5ca37e91ea176&amp;id=c40bcf6677', //Set Your Mailchamp URL
+        callback: function (resp) {
+            if (resp.result === 'success') {
+                $('.subscribe-form input, .subscribe-form button').fadeOut();
+            }
+        }
+    });
+
+
+
+    $('#video').YTPlayer({
+    fitToBackground: true,
+    videoId: 'gJ0fsQEetFc',
+    playerVars: {
+      modestbranding: 0,
+      autoplay: 1,
+      controls: 0,
+      showinfo: 0,
+      branding: 0,
+      rel: 0,
+      autohide: 0,
+      start: 0
+      }
+    });
+    $(".ytp-autohide .ytp-watermark").hide()
+    $(".ytp-hide-controls .ytp-watermark").hide()
+    $(".ytp-watermark yt-uix-sessionlink").hide()
+    $(".ytp-watermark yt-uix-sessionlink svg").hide()
+
+})(jQuery);
